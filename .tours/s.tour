@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "code",
+  "steps": [
+    {
+      "file": "codesmith/packages/core/src/index.ts",
+      "description": "### 入口",
+      "line": 8,
+      "selection": {
+        "start": {
+          "line": 10,
+          "character": 10
+        },
+        "end": {
+          "line": 10,
+          "character": 11
+        }
+      }
+    },
+    {
+      "file": "codesmith/packages/core/src/logger/index.ts",
+      "description": "### 自定义 logger",
+      "line": 6
+    },
+    {
+      "file": "codesmith/packages/core/src/codesmith/index.ts",
+      "description": "### codesmith\n\n```\n{\n  code // 代码生成\n  materialsManager // 物料管理\n  logger // 日志\n  debug // 调试\n  forge // 锻造\n  runTask // 执行任务\n}\n```",
+      "line": 16
+    },
+    {
+      "file": "codesmith/packages/core/src/materials/FsResource.ts",
+      "description": "### materials -- FS_RESOURCE(文件资源)\n\n图片资源读成 buffer",
+      "line": 6
+    },
+    {
+      "file": "codesmith/packages/core/src/materials/FsMaterial.ts",
+      "description": "### material -fsmaterial\n\nget 通过 resourcekey 获取文件\nfind 通过 `glob`方式查找目录中文件",
+      "line": 5,
+      "selection": {
+        "start": {
+          "line": 5,
+          "character": 14
+        },
+        "end": {
+          "line": 5,
+          "character": 24
+        }
+      }
+    },
+    {
+      "file": "codesmith/packages/core/src/materials/index.ts",
+      "description": "### material -- MaterialsManager\n\nloadLocalGenerator 获取本地 generator\n\nloadRemoteGenerator 获取远端\n\ngetPackageInfo 返回 版本号 和 包名\n\ndownloadPackage 下载 npm 包到本地 返回本地地址",
+      "line": 6
+    },
+    {
+      "file": "codesmith/packages/core/src/generator/index.ts",
+      "description": "### generatorCode\n\n代码生成\n\nrunGenerator\n\nrunSubGenerator",
+      "line": 20,
+      "selection": {
+        "start": {
+          "line": 223,
+          "character": 9
+        },
+        "end": {
+          "line": 223,
+          "character": 24
+        }
+      }
+    }
+  ]
+}
