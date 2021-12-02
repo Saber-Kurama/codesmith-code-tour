@@ -1,0 +1,26 @@
+{
+  "name": "codesmith-code-tour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-code": "sucrase-node ./tests/codesmith.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber-Kurama/codesmith-code-tour.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saber-Kurama/codesmith-code-tour/issues"
+  },
+  "homepage": "https://github.com/Saber-Kurama/codesmith-code-tour#readme",
+  "devDependencies": {
+    "sucrase": "^3.20.3"
+  }
+}
